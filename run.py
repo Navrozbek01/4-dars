@@ -125,7 +125,7 @@ Mavsumi: Sentabrdan fevralgacha (shimoliy yarimsharda)
 Anor Gʻarbiy Osiyo aholisi tomonidan qadim zamonlardan buyon qo'llanib kelinadi.
     """
     await callback.message.answer_photo(
-        photo="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_652836614d4ed96c760893c6_6528379023c58941b1bd18eb/scale_1200",
+        photo="clck.ru/3Nodhq", # Bu Yerda Anorni rasmi bor !
         caption=anor_text, reply_markup=orqaga_va_bosh)
 
 
@@ -153,7 +153,9 @@ Iste'mol qilish usullari:
 
 Mavsumi: Avgustdan noyabrgacha
     """
-    await callback.message.edit_text(olma_text, reply_markup=orqaga_va_bosh)
+    await callback.message.answer_photo(
+        photo="clck.ru/3Nodo2", # Bu Yerda Olmani rasmi bor !
+        caption=olma_text, reply_markup=orqaga_va_bosh)
 
 
 # 6-Handler - Anjir haqida
@@ -182,7 +184,9 @@ Mavsumi: Iyuldan oktabrgacha
 
 Anjir qadimgi zamonlardan beri O'rta er dengizi hududlarida yetishtiriladi.
     """
-    await callback.message.edit_text(anjir_text, reply_markup=orqaga_va_bosh)
+    await callback.message.answer_photo(
+        photo="clck.ru/3NoegD", # Bu Yerda Anjir rasmi bor !
+        caption=anjir_text, reply_markup=orqaga_va_bosh)
 
 
 # 7-Handler - Banan haqida
@@ -211,7 +215,9 @@ Mavjudligi: Yil davomida
 
 Banan tropik va subtropik hududlarda yetishtiriladi va dunyoning eng mashhur mevalaridan biri.
     """
-    await callback.message.edit_text(banan_text, reply_markup=orqaga_va_bosh)
+    await callback.message.answer_photo(
+        photo="clck.ru/3Noehx", # Bu Yerda Banan rasmi bor !
+        caption=banan_text, reply_markup=orqaga_va_bosh)
 
 
 # 8-Handler - Uzum haqida
@@ -240,7 +246,9 @@ Mavsumi: Avgustdan oktabrgacha
 
 Uzum qadimgi zamonlardan beri dunyoning turli hududlarida yetishtiriladi va vino ishlab chiqarish uchun ishlatiladi.
     """
-    await callback.message.edit_text(uzum_text, reply_markup=orqaga_va_bosh)
+    await callback.message.answer_photo(
+        photo="clck.ru/3Noem6", # Bu Yerda Uzum rasmi bor !
+        caption=uzum_text, reply_markup=orqaga_va_bosh)
 
 
 # 9-Handler - Orqaga qaytish (katalogga)
