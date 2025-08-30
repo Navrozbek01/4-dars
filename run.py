@@ -6,13 +6,16 @@ from aiogram.types import Message, CallbackQuery, ReplyKeyboardMarkup, KeyboardB
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.fsm.context import FSMContext
 from aiogram.exceptions import TelegramForbiddenError
+from aiogram.client.default import DefaultBotProperties
+from aiogram.enums import ParseMode
 
 from tugmalar import *
 from config import TOKEN
 from logger import log_action, log_system
 import traceback
 
-bot = Bot(token=TOKEN)
+bot = Bot(token=TOKEN,
+          default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
 
 
